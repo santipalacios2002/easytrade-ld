@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: contentcreator
-          image: europe-docker.pkg.dev/dynatrace-demoability/docker/easytrade/contentcreator:98288cf
+          image: europe-docker.pkg.dev/dynatrace-demoability/docker/easytrade/contentcreator:fa6ccf2
           env:
             - name: MSSQL_CONNECTIONSTRING
               valueFrom:
@@ -23,6 +23,6 @@ spec:
           resources:
             requests:
               cpu: 10m
-              memory: 300Mi
+              memory: 400Mi
             limits:
-              memory: 300Mi
+              memory: 400Mi
